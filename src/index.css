@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -7,13 +7,14 @@
 }
 
 :root {
-  --clr-white: #FFFFFF;
+  --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-grey: #707070;
   --clr-bunker: #131921;
   --clr-ebony-clay: #232f3e;
-  --clr-orange: #FF9900;
+  --clr-orange: #ff9900;
   --clr-orange-dark: #cc8111;
+  --clr-purple: #061ab8;
 }
 
 body {
@@ -103,7 +104,7 @@ nav {
   height: 40px;
   margin: 0 auto;
 
-  background-color: var(--clr-orange);
+  background-color: var(--clr-purple);
   color: var(--clr-black);
 
   border: none;
